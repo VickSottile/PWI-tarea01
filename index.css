@@ -1,7 +1,20 @@
-#a footer{
-    text-decoration: none;
+.producto{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 3px;
+    background-color: rgba(80, 106, 123, 0.24);
+    text-align: center;
+    text-size-adjust: 100%;
 }
-.bg-success {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-  }
+.producto :hover{
+    background: rgb(2, 17, 26);
+    color:rgb(204, 203, 224)
+}
+
+.fondo h1{
+    text-align: center;
+}
+.texto{
+    padding:1px;
+    background-color: rgb(195, 201, 212);
+}
